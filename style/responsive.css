@@ -1,0 +1,212 @@
+@media (max-width:700px) {
+    .nav-center{
+        display: none;
+    }
+    .nav-right a span{
+        display: none;
+    }
+    .nav-right .en{
+        display: none;
+    }.nav-left img{
+        width: 45%;
+    }
+    nav{
+        padding: 0 20px;
+        height: 10vh;
+    }#page1{
+    }
+    #page1 .container .center h1:nth-child(1){
+        display: none;
+    }
+    #page1 .container{
+        padding-top: 35%;
+    }
+    #page1 .container .center{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 25%;
+        /* background-color: aquamarine; */
+    }
+    #page1 .container .center h1{
+        font-size: 9vmax ;
+    }#page1 .container .center1 h1{
+        font-size: 9vmax ;
+        display: none;
+        
+    }
+    #page1 .invest{
+        display: block;
+    }#page1 .container .center1 .together{
+        display: block;
+        right: 8%;
+    }
+    #page1 .container .center1{
+        width: 100%;
+        height: 30%;
+        /* background-color: aqua; */
+    }
+    #page2{
+        height: 35vh;
+        margin-top: 20%;
+        /* background-color: aqua; */
+    }
+    #page3{
+        height: 40vh;
+        /* background-color: aqua; */
+        flex-direction: column;
+    }
+    #page3 div{
+        width: calc(100%);
+        /* background-color: #c1643e; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+        gap: 15px;
+    }
+    #page3 div h1{
+        font-size: 8vmax;
+        font-weight: 400;
+    }
+    #page3 div p{
+        font-size: 2.3vmax;
+        font-weight: 500;
+        line-height: 1;
+    }
+    #page3 div a{
+        padding: 10px 30px;
+        border: 1.5px solid white;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-radius: 30px;
+        font-size: 2vmax;
+    }#page3 div a i{
+        font-size: 2vmax;
+    }
+    #page6{
+        /* background-color: aqua; */
+        height: 100%;
+        align-items: center;
+        scrollbar-width: none;
+        gap: 15px;
+        width: 100%;
+        /* margin: 1%; */
+    }
+
+    #page4{
+        height: 60vh;
+    }
+    #page4 .container .container-left .img2{
+        display: none;
+    }
+    #page4 .container .container-right video{
+        margin-right: 1%;
+    }
+
+
+    #page6 .card{
+        width: 180px;
+        height: 50%;
+        white-space: nowrap;
+    }
+    #page6 .card-box h1{
+        width: 200px;
+        font-size: 2.5vmax;
+        text-align: center;
+    }
+
+
+    #page5{
+        /* background-color: aqua; */
+        height: 60vh;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        margin-top: 10%;
+    }#page5 p{
+        font-size: 2.2vmax;
+        width: 90%;
+    }#page5 h1{
+        font-size: 3.3vmax;
+        font-weight: 600;
+    }#page5 a{
+        font-size: 1.6vmax;
+    }
+
+    /* // page 7  */
+    #page7{
+        height: 20vh;
+        align-items: center;
+        gap: 10px;
+    }
+    #page7 h1{
+        font-size: 6vmax;
+    }#page7 a{
+        font-size: 1.7vmax;
+        gap: 10px;
+    }
+    #page8{
+        width: 98%;
+        height: 75vh;
+        gap: 0px;
+        /* background-color: #c1643e; */
+    }#page8 .box div a{
+        font-size: 1.6vmax;
+    }
+
+    #page9{
+        width: 100%;
+        height: 100vh;
+        display: none;
+        /* background-color: #205bc0; */
+        position: relative;
+        overflow: hidden;
+        /* background-color: aqua; */
+    }
+    #footer{
+        height: 150%;
+        background-color: blue;
+        align-items: end;
+        height: 105%;
+        position: absolute;
+    }
+    #footer .footer{
+        height: 70%;
+        width: calc(100%/2);
+        background-color: blueviolet;
+    }#footer .footer:nth-child(3),#footer .footer:nth-child(4){
+        display: none;
+    }
+    #footer .footer:nth-child(2){
+        height: 50%;
+        margin-bottom: 15%;
+    }
+    #footer div a{
+        font-size: 1.5vmax;
+    }
+    .page1-bottom{
+        border: 1px solid white;
+        padding: 0 10px;
+        width: 98%;
+    }
+    .page1-bottom div{
+        /* margin-top: 8px; */
+        border: 1px solid white;
+        width: calc(100%/3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px 5px;
+    }.page1-bottom div:nth-child(1),.page1-bottom div:nth-child(2),.page1-bottom div:nth-child(3){
+        display: none;
+    }
+    .page1-bottom p{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+}
